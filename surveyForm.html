@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        .personalInfo{
+          text-align: center;  
+        }
+
+        .radioButton{
+          text-align: center;
+        }
+
+        .checkBox{
+          text-align: center; 
+        }
+
+        .select{
+            text-align: center;
+            
+        }
+
+        .select select{
+            background-color: lightgray;
+        }
+
+        .textArea{
+            text-align: center;
+        }
+
+        .submitButton{
+            text-align: center;
+        }
+
+        .submitButton input{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Survey Form</h1><br>
+    <form>
+    <div class="personalInfo">
+
+    
+            <label for="name">Name:</label>
+            <input type="" id="name" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="age">Age:</label>
+            <input type="" id="age" name="age">
+    </div>
+            <br><br>
+
+    <div class="radioButton">
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="male">
+            <label for="gender" id="male" name="male">Male</label>
+
+            <input type="radio" id="gender" name="female">
+            <label for="gender">Female</label>
+
+            <input type="radio" id="gender" name="other">
+            <label for="gender">Other</label>
+    </div>
+            <br>
+
+    <div class="checkBox">
+
+            <label for="interests">Interests:</label>
+            <input type="checkbox" id="interests" name="sports">
+            <label for="interests" id="interests" name="sports">Sports</label>
+            <input type="checkbox" id="interests" name="music">
+            <label for="interests" id="interests" name="music">Music</label>
+            <input type="checkbox" id="interests" name="travel">
+            <label for="interests" id="interests" name="travel">Travel</label>
+    </div>
+            <br>
+            
+    <div class="select">
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="united states">United States</option>
+                <option value="mexico">Mexico</option>
+                <option value="russia">Russia</option>
+                <option value="germany">Germany</option>
+                <option value="england">England</option>
+                <option value="somalia">Somalia</option>
+                <option value="ethiopia">Ethiopia</option>
+                <option value="syria">Syria</option>
+                <option value="colombia">Colombia</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="afghanistan">Afghanistan</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="india">India</option>
+                <option value="canada">Canada</option>
+                <option value="phillipines">Phillipines</option>
+            </select>
+    </div>
+            <br>
+
+            <div class="textArea">
+
+                <label for="comments">Comments:</label>
+                <br>
+                <textarea name="comments" rows="5" cols="20">
+                </textarea>
+    </div>
+            <br>
+
+    <div class="submitButton">
+
+            <input type="submit">
+
+    </div>
+</form>
+
+    </div>
+</div>
+</body>
+</html>
